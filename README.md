@@ -1,6 +1,6 @@
 # osucraft!lazer
 
-An implementation of the rhythm game [osu!](https://osu.ppy.sh/home) inside of minecraft using [valence](https://github.com/valence-rs/valence). branch [lazer[(https://github.com/ppy/osu]
+An implementation of the rhythm game [osu!](https://osu.ppy.sh/home) inside of minecraft using [valence](https://github.com/valence-rs/valence). branch [lazer](https://github.com/ppy/osu]
 
 ![gameplay](/assets/gameplay.gif)
 
