@@ -1,5 +1,5 @@
-[osucraft)](https://github.com/brokedev/osucraft-lazer/assets/123737663/14101eab-2f7f-49fa-9df1-d9f6c8812afb)
-#osu!
+![osucraft](https://github.com/brokedev/osucraft-lazer/assets/123737663/14101eab-2f7f-49fa-9df1-d9f6c8812afb)
+#osucraft
 release 2024-03-09
 
 A free-to-win rhythm game, but in Minecraft!?!? Rhythm is just a click away!
