@@ -1,6 +1,6 @@
 [package]
 name = "osucraft"
-version = "0.1.1"
+version = "03-09-2024"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
