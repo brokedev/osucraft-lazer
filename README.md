@@ -1,46 +1,24 @@
-# osucraft!lazer
+[osucraft)](https://github.com/brokedev/osucraft-lazer/assets/123737663/14101eab-2f7f-49fa-9df1-d9f6c8812afb)
+#osu!
+release 2024-03-09
 
-An implementation of the rhythm game [osu!](https://osu.ppy.sh/home) inside of minecraft using [valence](https://github.com/valence-rs/valence). branch [lazer](https://github.com/ppy/osu)
+A free-to-win rhythm game, but in Minecraft!?!? Rhythm is just a click away!
 
-![gameplay](/assets/gameplay.gif)
+This is the Minecraft version of the osu! game client which marks the beginning of an open era! Currently known by and released under the release codename "lazer". As in sharper than cutting-edge.
 
-> 🎬 Showcase video: [here](https://www.youtube.com/watch?v=Yw5VYiOWDWk)
 
-Osucraft is a custom minecraft server implemented using the [valence](https://github.com/valence-rs/valence) framework, which I highly recommend cheking out if you're interested in building your own custom minecraft server using [rust](https://www.rust-lang.org/).
 
-Sugestions are more than welcomed, so feel free to open an issues or pull requests with possible improvements.
 
-> ⚠️ This isn't a really serious project, so the code is far from perfect and there are probably a ton of bugs.
+# Contributing
+When it comes to contributing to the project, the two main things you can do to help out are reporting issues and submitting pull requests. Please refer to the contributing guidelines to understand how to help in the most effective way possible.
 
-# Running osucraft
+If you wish to help with localisation efforts, head over to crowdin.
 
-### Windows
+We love to reward quality contributions. If you have made a large contribution, or are a regular contributor, you are welcome to submit an expense via opencollective. If you have any questions, feel free to reach out to peppy before doing so.
 
-Download the executable [here](https://github.com/mymatsubara/osucraft/releases/tag/0.1.0) and run it. Now you should be to access the server on the address `localhost`.
+# Licence
+osucraft's code and framework are licensed under the MIT licence. Please see the licence file for more information. tl;dr you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.
 
-### Linux and MacOS
+Please note that this does not cover the usage of the "osu!", "osucraft", and "ppy" branding in any software, resources, advertising or promotion, as this is protected by trademark law.
 
-Building the project on your machine:
-
-1. Clone this project
-2. Run `cargo build --release` ([rustup](https://www.rust-lang.org/tools/install) required)
-3. Run the executable `./target/release/osucraft`
-4. You'll be running osucraft server on `localhost`
-
-# Frequently asked questions
-
-### How hitcircles are made?
-
-Hitcircles rings are made of many invisible [armor stands](https://minecraft.fandom.com/wiki/Armor_Stand) equipped with a correctly rotated block in their head slot. Using some trigonometry the armor stands are positioned to make up the ring and since armor stands are entities they can overlap each other allowing smooth circles.
-
-### Are sliders and spinners implemented?
-
-Unfortunately they are not implemented. Sliders are replaced by hitcircles and spinners are ignored. I don't promise anything, but maybe in the future I'll try to implement them.
-
-### Is any resource pack required?
-
-They are not required, everything works using the default vanilla minecraft resource pack.
-
-### How to improve my minecraft performance for osucraft?
-
-My recommendation is to [allocate more RAM to minecraft](https://youtu.be/185lJ0M-58I) and to use [Fabric with Sodium, Lithium and Starlight](https://gist.github.com/HexedHero/aab340a84db51913cb1106c2d85f4e4f).
+Please also note that game resources are covered by a separate licence. Please see the ppy/osu-resources repository for clarifications.
